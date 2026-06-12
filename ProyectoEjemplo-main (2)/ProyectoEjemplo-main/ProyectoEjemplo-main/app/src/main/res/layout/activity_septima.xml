@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mi Boleta de Calificaciones"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/txtInfoAlumno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alumno: \nGrupo: "
+        android:textSize="16sp"
+        android:textStyle="italic"
+        android:layout_marginBottom="25dp"/>
+
+    <TextView
+        android:id="@+id/txtMatematicasNota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Matemáticas: Sin asignar"
+        android:textSize="18sp"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/txtEspanolNota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Español: Sin asignar"
+        android:textSize="18sp"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/txtHistoriaNota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Historia: Sin asignar"
+        android:textSize="18sp"
+        android:layout_marginBottom="30dp"/>
+
+    <Button
+        android:id="@+id/btnCalcularPromedio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcular Promedio General"
+        android:layout_marginBottom="15dp"/>
+
+    <TextView
+        android:id="@+id/txtPromedioGeneral"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Promedio General: --"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#FF0000"
+        android:gravity="center"
+        android:layout_marginBottom="30dp"/>
+
+    <!-- BOTÓN NUEVO -->
+    <Button
+        android:id="@+id/btnCerrarSesionAlumno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cerrar Sesión"
+        android:backgroundTint="#FF0000"
+        android:textColor="#FFFFFF"/>
+
+</LinearLayout>
